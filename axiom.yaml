@@ -1,0 +1,62 @@
+name: hamiltonjlucas/formularium-quantum-info
+version: 0.1.0
+language: python
+imports:
+- package: hamiltonjlucas/formularium-types
+  version: 0.1.0
+  messages:
+  - CentralityEntry
+  - DerivationResult
+  - StructureReport
+  - FormulaResult
+  - GraphReport
+  - DiscoverReport
+  - SynthesizedRelation
+  - DimensionsReport
+  - GraphNode
+  - GraphEdge
+  - SynthesizeShardRequest
+  - ConstantSpec
+  - SynthesizeEvent
+  - SweepReport
+  - ValidationReport
+  - UnitsReport
+  - DeriveReport
+  - RelationCandidate
+  - DimensionCheck
+  - BuckinghamGroup
+  - BuckinghamSet
+  - BuckinghamReport
+  - QuantitySpec
+  - ValidationIssue
+  - UnitConversionCheck
+  - FormulaSpec
+  - DomainCatalog
+  - Catalog
+  - SynthesisStats
+description: 'Formularium quantum information and foundations: Tsirelson bounds, weak values, gravitational
+  impulse. 6 formula compute nodes (natural units, GeV powers) plus GetCatalog. Part of the Formularium
+  axiom-native physics catalog.'
+license: Apache-2.0
+nodes:
+- name: BrassardThreshold
+  input: Empty
+  output: FormulaResult
+- name: GieFeasibilityRatio
+  input: GieFeasibilityRatioInput
+  output: FormulaResult
+- name: PostselectedKick
+  input: PostselectedKickInput
+  output: FormulaResult
+- name: TsirelsonBound
+  input: Empty
+  output: FormulaResult
+- name: TsirelsonFromChsh
+  input: TsirelsonFromChshInput
+  output: FormulaResult
+- name: WeakValueProjector
+  input: WeakValueProjectorInput
+  output: FormulaResult
+- name: GetCatalog
+  input: Empty
+  output: DomainCatalog
