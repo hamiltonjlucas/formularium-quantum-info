@@ -1,6 +1,5 @@
 from gen.axiom_context import AxiomContext
-from gen.hamiltonjlucas_formularium_types_messages_pb2 import DomainCatalog
-from gen.messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_constants_messages_pb2 import DomainCatalog, Empty
 from nodes.specs import DOMAIN, FORMULAS, QUANTITIES
 
 

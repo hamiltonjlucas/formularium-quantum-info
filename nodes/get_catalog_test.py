@@ -1,4 +1,4 @@
-from gen.messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_constants_messages_pb2 import Empty
 from nodes.get_catalog import get_catalog
 
 

@@ -1,7 +1,7 @@
 import math
 
 from gen.axiom_context import AxiomContext
-from gen.hamiltonjlucas_formularium_types_messages_pb2 import FormulaResult
+from gen.hamiltonjlucas_formularium_constants_messages_pb2 import FormulaResult
 from gen.messages_pb2 import TsirelsonFromChshInput
 from nodes.specs import FORMULAS
 
