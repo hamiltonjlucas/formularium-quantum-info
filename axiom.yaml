@@ -1,5 +1,5 @@
 name: hamiltonjlucas/formularium-quantum-info
-version: 0.2.0
+version: 0.3.0
 language: python
 description: 'Formularium quantum information and foundations: Tsirelson bounds, weak values, gravitational
   impulse. 6 formula compute nodes (natural units, GeV powers) plus GetCatalog. Part of the Formularium
@@ -28,36 +28,36 @@ nodes:
   input: Empty
   output: DomainCatalog
 imports:
-- package: hamiltonjlucas/formularium-constants
-  version: 0.2.0
+- package: hamiltonjlucas/formularium-types
+  version: 0.3.0
   messages:
-  - ValidationReport
-  - Catalog
-  - DimensionCheck
-  - GraphNode
-  - BuckinghamGroup
-  - ValidationIssue
-  - DiscoverReport
-  - SynthesizedRelation
-  - SweepReport
-  - UnitsReport
   - QuantitySpec
+  - GraphEdge
+  - SynthesizeEvent
+  - SweepReport
+  - ConstantSpec
+  - UnitsReport
+  - BuckinghamGroup
   - DerivationResult
-  - SynthesizeShardRequest
-  - CentralityEntry
-  - FormulaResult
+  - SynthesizedRelation
+  - DimensionCheck
+  - UnitConversionCheck
   - BuckinghamReport
+  - CentralityEntry
+  - DomainCatalog
+  - ValidationIssue
   - DeriveReport
+  - SynthesizeShardRequest
+  - FormulaSpec
+  - ValidationReport
+  - GraphNode
+  - BuckinghamSet
+  - DiscoverReport
+  - Empty
+  - Catalog
+  - GraphReport
+  - SynthesisStats
+  - FormulaResult
+  - DimensionsReport
   - RelationCandidate
   - StructureReport
-  - Empty
-  - ConstantSpec
-  - DomainCatalog
-  - UnitConversionCheck
-  - GraphEdge
-  - GraphReport
-  - BuckinghamSet
-  - SynthesisStats
-  - FormulaSpec
-  - DimensionsReport
-  - SynthesizeEvent

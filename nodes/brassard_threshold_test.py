@@ -2,7 +2,7 @@
 # `transcription` pins the node body to the spec expression at generation-time
 # reference values; `physics_sanity` (where present) checks the computed value
 # against the measured catalog constant (loose: loop corrections are real).
-from gen.hamiltonjlucas_formularium_constants_messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_types_messages_pb2 import Empty
 from nodes.brassard_threshold import brassard_threshold
 
 
